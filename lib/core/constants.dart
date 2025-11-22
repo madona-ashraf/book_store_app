@@ -1,11 +1,14 @@
 import 'package:flutter/material.dart';
 
 class AppColors {
-  static const Color primary = Color(0xFF1E88E5); // أزرق سماوي غامق
-  static const Color secondary = Color(0xFF757575); // رمادي
+  static const Color primary = Color(0xFFD4AF37); // Gold color
+  static const Color gold = Color(0xFFD4AF37); // Gold color
+  static const Color secondary = Color(0xFF757575); // Grey
   static const Color background = Colors.white;
   static const Color success = Colors.green;
   static const Color error = Colors.red;
+  static const Color textPrimary = Color(0xFF1A1A1A);
+  static const Color textSecondary = Color(0xFF666666);
 }
 
 class AppImages {
@@ -17,7 +20,7 @@ class AppImages {
 
 class AppStrings {
   static const String appName = 'Bookia';
-  static const String tagline = 'Online Book Store';
+  static const String tagline = 'Order Your Book, Now!';
   static const String welcome = 'Welcome to Bookia';
   static const String login = 'Login';
   static const String register = 'Register';

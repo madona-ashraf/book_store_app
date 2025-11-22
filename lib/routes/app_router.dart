@@ -1,11 +1,10 @@
-import 'package:book_store_app/screens/create_new_password_screen.dart';
 import 'package:flutter/material.dart';
-import '../screens/welcome_screen.dart';
 import '../screens/welcome_screen2.dart';
 import '../screens/login_screen.dart';
 import '../screens/register_screen.dart';
 import '../screens/forgot_password_screen.dart';
 import '../screens/otp_screen.dart';
+import '../screens/create_new_password_screen.dart';
 import '../screens/password_changed_screen.dart';
 import '../screens/home_screen.dart';
 
@@ -13,7 +12,7 @@ class AppRouter {
   static Route<dynamic> generateRoute(RouteSettings settings) {
     switch (settings.name) {
       case '/':
-        return MaterialPageRoute(builder: (_) => const WelcomeScreen());
+        return MaterialPageRoute(builder: (_) => const WelcomeScreen2());
       case '/welcome2':
         return MaterialPageRoute(builder: (_) => const WelcomeScreen2());
       case '/login':
